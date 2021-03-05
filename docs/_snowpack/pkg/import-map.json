@@ -1,0 +1,16 @@
+{
+  "imports": {
+    "@fortawesome/free-solid-svg-icons/faMapPin": "./@fortawesome/free-solid-svg-icons/faMapPin.js",
+    "fa-svelte": "./fa-svelte.js",
+    "pdfjs-dist/es5/build/pdf": "./pdfjs-dist/es5/build/pdf.js",
+    "svelte": "./svelte.js",
+    "svelte-file-dropzone": "./svelte-file-dropzone.js",
+    "svelte-hero-icons": "./svelte-hero-icons.js",
+    "svelte/easing": "./svelte/easing.js",
+    "svelte/internal": "./svelte/internal.js",
+    "svelte/motion": "./svelte/motion.js",
+    "svelte/store": "./svelte/store.js",
+    "svelte/transition": "./svelte/transition.js",
+    "uuid": "./uuid.js"
+  }
+}
