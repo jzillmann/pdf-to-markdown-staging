@@ -1,6 +1,6 @@
 {
   "inputs": {
-    "_snowpack/env.js": {
+    "modules/env.js": {
       "bytes": 97,
       "imports": []
     },
@@ -8,15 +8,15 @@
       "bytes": 439,
       "imports": []
     },
-    "_snowpack/pkg/common/index-c9bd85d7.js": {
+    "modules/pkg/common/index-c9bd85d7.js": {
       "bytes": 30208,
       "imports": []
     },
-    "_snowpack/pkg/svelte/internal.js": {
+    "modules/pkg/svelte/internal.js": {
       "bytes": 890,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/index-c9bd85d7.js",
+          "path": "modules/pkg/common/index-c9bd85d7.js",
           "kind": "import-statement"
         }
       ]
@@ -25,37 +25,37 @@
       "bytes": 203,
       "imports": []
     },
-    "_snowpack/pkg/common/index-53cd20fa.js": {
+    "modules/pkg/common/index-53cd20fa.js": {
       "bytes": 564,
       "imports": []
     },
-    "_snowpack/pkg/svelte/transition.js": {
+    "modules/pkg/svelte/transition.js": {
       "bytes": 2510,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/index-c9bd85d7.js",
+          "path": "modules/pkg/common/index-c9bd85d7.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/index-53cd20fa.js",
+          "path": "modules/pkg/common/index-53cd20fa.js",
           "kind": "import-statement"
         }
       ]
     },
-    "_snowpack/pkg/svelte-file-dropzone.js": {
+    "modules/pkg/svelte-file-dropzone.js": {
       "bytes": 30997,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/index-c9bd85d7.js",
+          "path": "modules/pkg/common/index-c9bd85d7.js",
           "kind": "import-statement"
         }
       ]
     },
-    "_snowpack/pkg/svelte-hero-icons.js": {
+    "modules/pkg/svelte-hero-icons.js": {
       "bytes": 41651,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/index-c9bd85d7.js",
+          "path": "modules/pkg/common/index-c9bd85d7.js",
           "kind": "import-statement"
         }
       ]
@@ -73,15 +73,15 @@
         }
       ]
     },
-    "_snowpack/pkg/uuid.js": {
+    "modules/pkg/uuid.js": {
       "bytes": 3115,
       "imports": []
     },
     "core/Item.js": {
-      "bytes": 475,
+      "bytes": 473,
       "imports": [
         {
-          "path": "_snowpack/pkg/uuid.js",
+          "path": "modules/pkg/uuid.js",
           "kind": "import-statement"
         }
       ]
@@ -369,46 +369,46 @@
         }
       ]
     },
-    "_snowpack/pkg/common/_commonjsHelpers-50d32d3b.js": {
+    "modules/pkg/common/_commonjsHelpers-50d32d3b.js": {
       "bytes": 1079,
       "imports": []
     },
-    "_snowpack/pkg/pdfjs-dist/es5/build/pdf.js": {
+    "modules/pkg/pdfjs-dist/es5/build/pdf.js": {
       "bytes": 849496,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/_commonjsHelpers-50d32d3b.js",
+          "path": "modules/pkg/common/_commonjsHelpers-50d32d3b.js",
           "kind": "import-statement"
         }
       ]
     },
-    "_snowpack/pkg/common/index-380c8c99.js": {
+    "modules/pkg/common/index-380c8c99.js": {
       "bytes": 1782,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/index-c9bd85d7.js",
+          "path": "modules/pkg/common/index-c9bd85d7.js",
           "kind": "import-statement"
         }
       ]
     },
-    "_snowpack/pkg/svelte/store.js": {
+    "modules/pkg/svelte/store.js": {
       "bytes": 99,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/index-c9bd85d7.js",
+          "path": "modules/pkg/common/index-c9bd85d7.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/index-380c8c99.js",
+          "path": "modules/pkg/common/index-380c8c99.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/store.js": {
-      "bytes": 1217,
+      "bytes": 1211,
       "imports": [
         {
-          "path": "_snowpack/env.js",
+          "path": "modules/env.js",
           "kind": "import-statement"
         },
         {
@@ -416,54 +416,54 @@
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/pdfjs-dist/es5/build/pdf.js",
+          "path": "modules/pkg/pdfjs-dist/es5/build/pdf.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte/store.js",
+          "path": "modules/pkg/svelte/store.js",
           "kind": "import-statement"
         }
       ]
     },
-    "_snowpack/pkg/svelte/motion.js": {
+    "modules/pkg/svelte/motion.js": {
       "bytes": 3260,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/index-c9bd85d7.js",
+          "path": "modules/pkg/common/index-c9bd85d7.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/index-380c8c99.js",
+          "path": "modules/pkg/common/index-380c8c99.js",
           "kind": "import-statement"
         }
       ]
     },
-    "_snowpack/pkg/svelte/easing.js": {
+    "modules/pkg/svelte/easing.js": {
       "bytes": 136,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/index-c9bd85d7.js",
+          "path": "modules/pkg/common/index-c9bd85d7.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/index-53cd20fa.js",
+          "path": "modules/pkg/common/index-53cd20fa.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/components/ProgressRing.svelte.js": {
-      "bytes": 4509,
+      "bytes": 4503,
       "imports": [
         {
-          "path": "_snowpack/pkg/svelte/internal.js",
+          "path": "modules/pkg/svelte/internal.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte/motion.js",
+          "path": "modules/pkg/svelte/motion.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte/easing.js",
+          "path": "modules/pkg/svelte/easing.js",
           "kind": "import-statement"
         }
       ]
@@ -473,48 +473,48 @@
       "imports": []
     },
     "dist/components/Checkbox.svelte.js": {
-      "bytes": 2487,
+      "bytes": 2485,
       "imports": [
         {
           "path": "dist/components/Checkbox.svelte.css",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte/internal.js",
+          "path": "modules/pkg/svelte/internal.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/config.js": {
-      "bytes": 615,
+      "bytes": 613,
       "imports": [
         {
-          "path": "_snowpack/pkg/svelte/store.js",
+          "path": "modules/pkg/svelte/store.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/main/Upload.svelte.js": {
-      "bytes": 21760,
+      "bytes": 21752,
       "imports": [
         {
           "path": "dist/main/Upload.svelte.css",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte/internal.js",
+          "path": "modules/pkg/svelte/internal.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte/transition.js",
+          "path": "modules/pkg/svelte/transition.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte-file-dropzone.js",
+          "path": "modules/pkg/svelte-file-dropzone.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte-hero-icons.js",
+          "path": "modules/pkg/svelte-hero-icons.js",
           "kind": "import-statement"
         },
         {
@@ -539,29 +539,29 @@
       "bytes": 271,
       "imports": []
     },
-    "_snowpack/pkg/fa-svelte.js": {
+    "modules/pkg/fa-svelte.js": {
       "bytes": 2587,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/index-c9bd85d7.js",
+          "path": "modules/pkg/common/index-c9bd85d7.js",
           "kind": "import-statement"
         }
       ]
     },
-    "_snowpack/pkg/@fortawesome/free-solid-svg-icons/faMapPin.js": {
+    "modules/pkg/@fortawesome/free-solid-svg-icons/faMapPin.js": {
       "bytes": 1151,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/_commonjsHelpers-50d32d3b.js",
+          "path": "modules/pkg/common/_commonjsHelpers-50d32d3b.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/svelte/slideH.js": {
-      "bytes": 1164,
+      "bytes": 1162,
       "imports": [
         {
-          "path": "_snowpack/pkg/svelte/easing.js",
+          "path": "modules/pkg/svelte/easing.js",
           "kind": "import-statement"
         }
       ]
@@ -575,27 +575,27 @@
       "imports": []
     },
     "dist/debug/FontEntry.svelte.js": {
-      "bytes": 9366,
+      "bytes": 9362,
       "imports": [
         {
           "path": "dist/debug/FontEntry.svelte.css",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte/internal.js",
+          "path": "modules/pkg/svelte/internal.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte/transition.js",
+          "path": "modules/pkg/svelte/transition.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/debug/FontIndex.svelte.js": {
-      "bytes": 7388,
+      "bytes": 7386,
       "imports": [
         {
-          "path": "_snowpack/pkg/svelte/internal.js",
+          "path": "modules/pkg/svelte/internal.js",
           "kind": "import-statement"
         },
         {
@@ -612,28 +612,28 @@
         }
       ]
     },
-    "_snowpack/pkg/svelte.js": {
+    "modules/pkg/svelte.js": {
       "bytes": 107,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/index-c9bd85d7.js",
+          "path": "modules/pkg/common/index-c9bd85d7.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/components/Popup.svelte.js": {
-      "bytes": 4611,
+      "bytes": 4605,
       "imports": [
         {
-          "path": "_snowpack/pkg/svelte/internal.js",
+          "path": "modules/pkg/svelte/internal.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte/store.js",
+          "path": "modules/pkg/svelte/store.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte.js",
+          "path": "modules/pkg/svelte.js",
           "kind": "import-statement"
         },
         {
@@ -643,26 +643,26 @@
       ]
     },
     "dist/debug/PageSelectionPopup.svelte.js": {
-      "bytes": 6618,
+      "bytes": 6608,
       "imports": [
         {
-          "path": "_snowpack/pkg/svelte/internal.js",
+          "path": "modules/pkg/svelte/internal.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte/transition.js",
+          "path": "modules/pkg/svelte/transition.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte.js",
+          "path": "modules/pkg/svelte.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte.js",
+          "path": "modules/pkg/svelte.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte-hero-icons.js",
+          "path": "modules/pkg/svelte-hero-icons.js",
           "kind": "import-statement"
         }
       ]
@@ -684,10 +684,10 @@
       "imports": []
     },
     "dist/debug/ChangeSymbol.svelte.js": {
-      "bytes": 7710,
+      "bytes": 7706,
       "imports": [
         {
-          "path": "_snowpack/pkg/svelte/internal.js",
+          "path": "modules/pkg/svelte/internal.js",
           "kind": "import-statement"
         },
         {
@@ -699,24 +699,24 @@
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte-hero-icons.js",
+          "path": "modules/pkg/svelte-hero-icons.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/debug/ItemTable.svelte.js": {
-      "bytes": 29541,
+      "bytes": 29537,
       "imports": [
         {
           "path": "dist/debug/ItemTable.svelte.css",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte/internal.js",
+          "path": "modules/pkg/svelte/internal.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte/transition.js",
+          "path": "modules/pkg/svelte/transition.js",
           "kind": "import-statement"
         },
         {
@@ -742,59 +742,59 @@
       "imports": []
     },
     "dist/debug/TransformerSelectionPopup.svelte.js": {
-      "bytes": 5316,
+      "bytes": 5308,
       "imports": [
         {
           "path": "dist/debug/TransformerSelectionPopup.svelte.css",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte/internal.js",
+          "path": "modules/pkg/svelte/internal.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte/transition.js",
+          "path": "modules/pkg/svelte/transition.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte.js",
+          "path": "modules/pkg/svelte.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte.js",
+          "path": "modules/pkg/svelte.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/debug/DebugView.svelte.js": {
-      "bytes": 31725,
+      "bytes": 31713,
       "imports": [
         {
           "path": "dist/debug/DebugView.svelte.css",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte/internal.js",
+          "path": "modules/pkg/svelte/internal.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte/transition.js",
+          "path": "modules/pkg/svelte/transition.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte/easing.js",
+          "path": "modules/pkg/svelte/easing.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/fa-svelte.js",
+          "path": "modules/pkg/fa-svelte.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/@fortawesome/free-solid-svg-icons/faMapPin.js",
+          "path": "modules/pkg/@fortawesome/free-solid-svg-icons/faMapPin.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte-hero-icons.js",
+          "path": "modules/pkg/svelte-hero-icons.js",
           "kind": "import-statement"
         },
         {
@@ -832,14 +832,14 @@
       ]
     },
     "dist/App.svelte.js": {
-      "bytes": 5601,
+      "bytes": 5597,
       "imports": [
         {
           "path": "dist/App.svelte.css",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte/internal.js",
+          "path": "modules/pkg/svelte/internal.js",
           "kind": "import-statement"
         },
         {
@@ -847,7 +847,7 @@
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/svelte/transition.js",
+          "path": "modules/pkg/svelte/transition.js",
           "kind": "import-statement"
         },
         {
@@ -865,10 +865,10 @@
       "imports": []
     },
     "dist/index.js": {
-      "bytes": 434,
+      "bytes": 432,
       "imports": [
         {
-          "path": "_snowpack/env.js",
+          "path": "modules/env.js",
           "kind": "import-statement"
         },
         {
@@ -890,34 +890,34 @@
       ],
       "entryPoint": "dist/index.js",
       "inputs": {
-        "_snowpack/pkg/pdfjs-dist/es5/build/pdf.js": {
+        "modules/pkg/pdfjs-dist/es5/build/pdf.js": {
           "bytesInOutput": 399118
         },
-        "_snowpack/env.js": {
+        "modules/env.js": {
           "bytesInOutput": 100
         },
         "dist/App.svelte.css": {
           "bytesInOutput": 0
         },
-        "_snowpack/pkg/common/index-c9bd85d7.js": {
-          "bytesInOutput": 9640
+        "modules/pkg/common/index-c9bd85d7.js": {
+          "bytesInOutput": 9633
         },
-        "_snowpack/pkg/svelte/internal.js": {
+        "modules/pkg/svelte/internal.js": {
           "bytesInOutput": 0
         },
         "dist/main/Upload.svelte.css": {
           "bytesInOutput": 0
         },
-        "_snowpack/pkg/common/index-53cd20fa.js": {
+        "modules/pkg/common/index-53cd20fa.js": {
           "bytesInOutput": 197
         },
-        "_snowpack/pkg/svelte/transition.js": {
+        "modules/pkg/svelte/transition.js": {
           "bytesInOutput": 1249
         },
-        "_snowpack/pkg/svelte-file-dropzone.js": {
-          "bytesInOutput": 11565
+        "modules/pkg/svelte-file-dropzone.js": {
+          "bytesInOutput": 11562
         },
-        "_snowpack/pkg/svelte-hero-icons.js": {
+        "modules/pkg/svelte-hero-icons.js": {
           "bytesInOutput": 17550
         },
         "core/Progress.js": {
@@ -926,7 +926,7 @@
         "core/ParseProgressReporter.js": {
           "bytesInOutput": 695
         },
-        "_snowpack/pkg/uuid.js": {
+        "modules/pkg/uuid.js": {
           "bytesInOutput": 1174
         },
         "core/Item.js": {
@@ -960,10 +960,10 @@
           "bytesInOutput": 223
         },
         "core/debug/ChangeTracker.js": {
-          "bytesInOutput": 848
+          "bytesInOutput": 773
         },
         "core/debug/StageResult.js": {
-          "bytesInOutput": 934
+          "bytesInOutput": 866
         },
         "core/debug/ColumnAnnotation.js": {
           "bytesInOutput": 81
@@ -972,10 +972,10 @@
           "bytesInOutput": 288
         },
         "core/Debugger.js": {
-          "bytesInOutput": 1183
+          "bytesInOutput": 1159
         },
         "core/PdfPipeline.js": {
-          "bytesInOutput": 896
+          "bytesInOutput": 878
         },
         "core/transformer/ItemTransformer.js": {
           "bytesInOutput": 125
@@ -1007,22 +1007,22 @@
         "core/index.js": {
           "bytesInOutput": 196
         },
-        "_snowpack/pkg/common/_commonjsHelpers-50d32d3b.js": {
-          "bytesInOutput": 710
+        "modules/pkg/common/_commonjsHelpers-50d32d3b.js": {
+          "bytesInOutput": 703
         },
         "dist/store.js": {
-          "bytesInOutput": 480
+          "bytesInOutput": 488
         },
-        "_snowpack/pkg/common/index-380c8c99.js": {
+        "modules/pkg/common/index-380c8c99.js": {
           "bytesInOutput": 431
         },
-        "_snowpack/pkg/svelte/store.js": {
+        "modules/pkg/svelte/store.js": {
           "bytesInOutput": 0
         },
-        "_snowpack/pkg/svelte/motion.js": {
+        "modules/pkg/svelte/motion.js": {
           "bytesInOutput": 1201
         },
-        "_snowpack/pkg/svelte/easing.js": {
+        "modules/pkg/svelte/easing.js": {
           "bytesInOutput": 0
         },
         "dist/components/ProgressRing.svelte.js": {
@@ -1038,15 +1038,15 @@
           "bytesInOutput": 246
         },
         "dist/main/Upload.svelte.js": {
-          "bytesInOutput": 7594
+          "bytesInOutput": 7490
         },
         "dist/debug/DebugView.svelte.css": {
           "bytesInOutput": 0
         },
-        "_snowpack/pkg/fa-svelte.js": {
+        "modules/pkg/fa-svelte.js": {
           "bytesInOutput": 1023
         },
-        "_snowpack/pkg/@fortawesome/free-solid-svg-icons/faMapPin.js": {
+        "modules/pkg/@fortawesome/free-solid-svg-icons/faMapPin.js": {
           "bytesInOutput": 658
         },
         "dist/svelte/slideH.js": {
@@ -1064,7 +1064,7 @@
         "dist/debug/FontIndex.svelte.js": {
           "bytesInOutput": 2420
         },
-        "_snowpack/pkg/svelte.js": {
+        "modules/pkg/svelte.js": {
           "bytesInOutput": 0
         },
         "dist/components/Popup.svelte.js": {
@@ -1089,7 +1089,7 @@
           "bytesInOutput": 2063
         },
         "dist/debug/ItemTable.svelte.js": {
-          "bytesInOutput": 9994
+          "bytesInOutput": 9962
         },
         "dist/debug/TransformerSelectionPopup.svelte.css": {
           "bytesInOutput": 0
@@ -1098,7 +1098,7 @@
           "bytesInOutput": 1658
         },
         "dist/debug/DebugView.svelte.js": {
-          "bytesInOutput": 10163
+          "bytesInOutput": 10064
         },
         "dist/App.svelte.js": {
           "bytesInOutput": 1637
@@ -1107,10 +1107,10 @@
           "bytesInOutput": 0
         },
         "dist/index.js": {
-          "bytesInOutput": 73
+          "bytesInOutput": 72
         }
       },
-      "bytes": 506861
+      "bytes": 506431
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
