@@ -373,19 +373,11 @@
       "bytes": 1079,
       "imports": []
     },
-    "_snowpack/pkg/common/process-2545f00a.js": {
-      "bytes": 6350,
-      "imports": []
-    },
     "_snowpack/pkg/pdfjs-dist/es5/build/pdf.js": {
-      "bytes": 843224,
+      "bytes": 849496,
       "imports": [
         {
           "path": "_snowpack/pkg/common/_commonjsHelpers-50d32d3b.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "_snowpack/pkg/common/process-2545f00a.js",
           "kind": "import-statement"
         }
       ]
@@ -412,21 +404,8 @@
         }
       ]
     },
-    "_snowpack/pkg/pdfjs-dist/es5/build/pdf.worker.entry.js": {
-      "bytes": 1847615,
-      "imports": [
-        {
-          "path": "_snowpack/pkg/common/_commonjsHelpers-50d32d3b.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "_snowpack/pkg/common/process-2545f00a.js",
-          "kind": "import-statement"
-        }
-      ]
-    },
     "dist/store.js": {
-      "bytes": 1126,
+      "bytes": 1049,
       "imports": [
         {
           "path": "core/index.js",
@@ -438,10 +417,6 @@
         },
         {
           "path": "_snowpack/pkg/svelte/store.js",
-          "kind": "import-statement"
-        },
-        {
-          "path": "_snowpack/pkg/pdfjs-dist/es5/build/pdf.worker.entry.js",
           "kind": "import-statement"
         }
       ]
@@ -912,7 +887,7 @@
       "entryPoint": "dist/index.js",
       "inputs": {
         "_snowpack/pkg/pdfjs-dist/es5/build/pdf.js": {
-          "bytesInOutput": 396795
+          "bytesInOutput": 399118
         },
         "_snowpack/env.js": {
           "bytesInOutput": 100
@@ -921,7 +896,7 @@
           "bytesInOutput": 0
         },
         "_snowpack/pkg/common/index-c9bd85d7.js": {
-          "bytesInOutput": 9680
+          "bytesInOutput": 9640
         },
         "_snowpack/pkg/svelte/internal.js": {
           "bytesInOutput": 0
@@ -936,10 +911,10 @@
           "bytesInOutput": 1249
         },
         "_snowpack/pkg/svelte-file-dropzone.js": {
-          "bytesInOutput": 11576
+          "bytesInOutput": 11565
         },
         "_snowpack/pkg/svelte-hero-icons.js": {
-          "bytesInOutput": 17804
+          "bytesInOutput": 17550
         },
         "core/Progress.js": {
           "bytesInOutput": 752
@@ -1011,7 +986,7 @@
           "bytesInOutput": 109
         },
         "core/transformer/CacluclateStatistics.js": {
-          "bytesInOutput": 1518
+          "bytesInOutput": 1494
         },
         "core/debug/ItemMerger.js": {
           "bytesInOutput": 52
@@ -1031,11 +1006,8 @@
         "_snowpack/pkg/common/_commonjsHelpers-50d32d3b.js": {
           "bytesInOutput": 710
         },
-        "_snowpack/pkg/common/process-2545f00a.js": {
-          "bytesInOutput": 2194
-        },
         "dist/store.js": {
-          "bytesInOutput": 404
+          "bytesInOutput": 423
         },
         "_snowpack/pkg/common/index-380c8c99.js": {
           "bytesInOutput": 431
@@ -1043,35 +1015,32 @@
         "_snowpack/pkg/svelte/store.js": {
           "bytesInOutput": 0
         },
-        "_snowpack/pkg/pdfjs-dist/es5/build/pdf.worker.entry.js": {
-          "bytesInOutput": 892153
-        },
         "_snowpack/pkg/svelte/motion.js": {
-          "bytesInOutput": 1207
+          "bytesInOutput": 1201
         },
         "_snowpack/pkg/svelte/easing.js": {
           "bytesInOutput": 0
         },
         "dist/components/ProgressRing.svelte.js": {
-          "bytesInOutput": 1529
+          "bytesInOutput": 1507
         },
         "dist/components/Checkbox.svelte.css": {
           "bytesInOutput": 0
         },
         "dist/components/Checkbox.svelte.js": {
-          "bytesInOutput": 893
+          "bytesInOutput": 886
         },
         "dist/config.js": {
           "bytesInOutput": 246
         },
         "dist/main/Upload.svelte.js": {
-          "bytesInOutput": 7647
+          "bytesInOutput": 7594
         },
         "dist/debug/DebugView.svelte.css": {
           "bytesInOutput": 0
         },
         "_snowpack/pkg/fa-svelte.js": {
-          "bytesInOutput": 1033
+          "bytesInOutput": 1023
         },
         "_snowpack/pkg/@fortawesome/free-solid-svg-icons/faMapPin.js": {
           "bytesInOutput": 658
@@ -1086,10 +1055,10 @@
           "bytesInOutput": 0
         },
         "dist/debug/FontEntry.svelte.js": {
-          "bytesInOutput": 3397
+          "bytesInOutput": 3396
         },
         "dist/debug/FontIndex.svelte.js": {
-          "bytesInOutput": 2425
+          "bytesInOutput": 2420
         },
         "_snowpack/pkg/svelte.js": {
           "bytesInOutput": 0
@@ -1098,7 +1067,7 @@
           "bytesInOutput": 1125
         },
         "dist/debug/PageSelectionPopup.svelte.js": {
-          "bytesInOutput": 2424
+          "bytesInOutput": 2403
         },
         "dist/debug/ItemTable.svelte.css": {
           "bytesInOutput": 0
@@ -1113,22 +1082,22 @@
           "bytesInOutput": 70
         },
         "dist/debug/ChangeSymbol.svelte.js": {
-          "bytesInOutput": 2064
+          "bytesInOutput": 2063
         },
         "dist/debug/ItemTable.svelte.js": {
-          "bytesInOutput": 10072
+          "bytesInOutput": 9994
         },
         "dist/debug/TransformerSelectionPopup.svelte.css": {
           "bytesInOutput": 0
         },
         "dist/debug/TransformerSelectionPopup.svelte.js": {
-          "bytesInOutput": 1663
+          "bytesInOutput": 1658
         },
         "dist/debug/DebugView.svelte.js": {
-          "bytesInOutput": 10131
+          "bytesInOutput": 10163
         },
         "dist/App.svelte.js": {
-          "bytesInOutput": 1642
+          "bytesInOutput": 1637
         },
         "dist/Tailwind.css": {
           "bytesInOutput": 0
@@ -1137,7 +1106,7 @@
           "bytesInOutput": 73
         }
       },
-      "bytes": 1399320
+      "bytes": 506804
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
