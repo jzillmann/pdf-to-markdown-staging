@@ -405,12 +405,8 @@
       ]
     },
     "dist/store.js": {
-      "bytes": 1210,
+      "bytes": 1045,
       "imports": [
-        {
-          "path": "modules/env.js",
-          "kind": "import-statement"
-        },
         {
           "path": "core/index.js",
           "kind": "import-statement"
@@ -1011,7 +1007,7 @@
           "bytesInOutput": 703
         },
         "dist/store.js": {
-          "bytesInOutput": 487
+          "bytesInOutput": 423
         },
         "modules/pkg/common/index-380c8c99.js": {
           "bytesInOutput": 431
@@ -1110,7 +1106,7 @@
           "bytesInOutput": 72
         }
       },
-      "bytes": 506430
+      "bytes": 506366
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
