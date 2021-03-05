@@ -405,8 +405,12 @@
       ]
     },
     "dist/store.js": {
-      "bytes": 1096,
+      "bytes": 1217,
       "imports": [
+        {
+          "path": "_snowpack/env.js",
+          "kind": "import-statement"
+        },
         {
           "path": "core/index.js",
           "kind": "import-statement"
@@ -1007,7 +1011,7 @@
           "bytesInOutput": 710
         },
         "dist/store.js": {
-          "bytesInOutput": 443
+          "bytesInOutput": 480
         },
         "_snowpack/pkg/common/index-380c8c99.js": {
           "bytesInOutput": 431
@@ -1106,7 +1110,7 @@
           "bytesInOutput": 73
         }
       },
-      "bytes": 506824
+      "bytes": 506861
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
